@@ -149,12 +149,12 @@ p {
   margin: 10px;
   display: inline-block;
   font-size: 40px;
-  width: 155px;
-  height: 35vh;
+  width: 170px;
+  height: 40vh;
 }
 
 .images {
-  width: 155px;
+  width: 170px;
 }
 
 .some-text {
@@ -188,6 +188,7 @@ h6 {
   font-size: medium;
   margin-left: 10px;
   font-weight: 800;
+  margin-top: 7px;
 }
 
 span {
@@ -195,4 +196,28 @@ span {
   font-weight: lighter;
   font-weight: 400;
   color: darkgray;
+}
+
+.foto {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  margin-top: -0.3em;
+  margin-left: 0.2em;
+}
+
+.name {
+  display: flex;
+  font-size: 12px;
+  margin-left: 4em;
+  margin-top: -23px;
+  color: darkgray;
+}
+
+.bookmark {
+  position: relative;
+  right: -3.6em;
+  top: -1.2em;
 }
