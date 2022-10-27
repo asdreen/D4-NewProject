@@ -133,15 +133,15 @@ p {
 
 #end {
   width: 100vw;
-  height: 180vh;
+  height: 200vh;
   background-color: lightgray;
   position: relative;
 }
 
 #flex {
   display: inline-block;
-  margin-left: 22em;
-  margin-top: 5em;
+  margin-left: 20em;
+  margin-top: 3.1em;
 }
 
 .flex1 {
@@ -220,4 +220,30 @@ span {
   position: relative;
   right: -3.6em;
   top: -1.2em;
+}
+
+footer {
+  font-size: 1.1rem;
+  color: lightslategrey;
+  font-weight: lighter;
+  margin-left: 21em;
+  margin-top: 4em;
+}
+
+#me {
+  color: burlywood;
+  text-decoration: none;
+}
+
+.privacy {
+  margin-left: 1.1em;
+}
+
+#link {
+  display: inline-block;
+  position: absolute;
+  left: 45em;
+  bottom: 1.6em;
+  font-size: 1.1rem;
+  color: lightslategrey;
 }
